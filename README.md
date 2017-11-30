@@ -1,6 +1,6 @@
 # Revising Python OOP
 
-Revising and improving OP with Python.
+Revising and improving OOP with Python.
 
 ## Class:
 
@@ -31,5 +31,5 @@ Great for code re-usability and extensibility. Class can inherit access to data 
 If class X extends to class Y, Y = super class and X = sub class.
 
 Class X derives the data and behavior of the class Y.
-
+wheels, miles, make, model, year, sold_on
 The parent class should be an Abstract Base Class (ABC). ABC classes are only meant to be inherit from, instances cannot be created.
