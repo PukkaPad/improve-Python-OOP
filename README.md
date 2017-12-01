@@ -33,3 +33,26 @@ If class X extends to class Y, Y = super class and X = sub class.
 Class X derives the data and behavior of the class Y.
 wheels, miles, make, model, year, sold_on
 The parent class should be an Abstract Base Class (ABC). ABC classes are only meant to be inherit from, instances cannot be created.
+
+### unittest
+
+This does not prove if the test is correct. It reports if the conditions are handled correctly.
+
+Unit testing test a unit of code in isolation. A unit can be a module, a class, a function.
+
+unittest.TestCase class has [assert methods](https://docs.python.org/3/library/unittest.html#assert-methods) that can be added to the code, depending on the case.
+
+'discovery' needs to be called.
+
+### pytest
+
+It's very easy. Plain `assert` statements are used.  `discovery` is build in to pytest
+
+### nose
+
+"nose extends unittest to make testing easier."
+
+### doctest
+
+it searches for pieces of text that look like interactive Python session. Can be run without the code or from a .txt
+

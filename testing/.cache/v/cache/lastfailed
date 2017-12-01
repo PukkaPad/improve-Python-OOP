@@ -1,0 +1,4 @@
+{
+  "test_easy_math_pytest.py::TestEasyMath::()::test_multiply_4_3": true,
+  "test_easy_math_pytest.py::TestEasyMath::()::test_string_multiply_m_4": true
+}
