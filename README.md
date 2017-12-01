@@ -56,3 +56,28 @@ It's very easy. Plain `assert` statements are used.  `discovery` is build in to 
 
 it searches for pieces of text that look like interactive Python session. Can be run without the code or from a .txt
 
+### Debugging
+
+[Debugging vs Testing](https://softwareengineering.stackexchange.com/a/79070)
+
+`python3 -m pdb epdb1.py`
+
+at (Pdb) prompt:
+
+* `list` : to get context around current line
+* `list 3, 7`: to specify which lines to include
+* `step` or `next` to move through the program line by line
+* `break epdb1: 5`: add breaking points at line number (5)
+* `clear` + ENTER + `y` : remove all breaking points
+* `break epdb1.nested_loop`: place breaking point where the function is defined
+* `break epdb1.py: 8, number > 500`: set up condition
+* `continue`: command will break when number x > 500
+* `break`: to see list of breakpoints currently set to run
+* `disable <Num>`: disable a breakpoint
+* `enable <Num>`: enable a breakpoint
+* `q`: aborts the program
+
+
+
+
+

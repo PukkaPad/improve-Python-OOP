@@ -1,5 +1,6 @@
 .DS_Store
 __pycache__/
+/TDD
 *.pyc
 *.sublime-project
 *.sublime-workspace
